@@ -1,0 +1,44 @@
+/*
+Project Name: ECO2 Agenda Multi-Select Demo
+Project URI: https://jvining.github.io/ECO2-Agenda-Multi-Select-Demo
+Description: ECO2 Agenda Multi-Select Demo, built on Starter Bootstrap Template (http://bit.ly/1SnymWq)
+Author: Joshua Vining
+Author URI: https://github.com/jvining
+
+rgb(66, 139, 202)
+rgb(92, 184, 92)
+rgb(91, 192, 222)
+rgb(240, 173, 78)
+rgb(217, 83, 79)
+
+*/
+
+body {background:#fbfbfb; font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";}
+body h1, body h2, body h3, body h4, body h5 {font-weight:300;}
+body [class*="col-"] {color:#5f5f5f; font-size:16px; line-height:1.75em;}
+ 
+body .container:nth-child(2) {margin-top:5em; margin-bottom:2em;}
+ 
+/* Typography */ 
+.fa-lg,.fa-1x,.fa-2x,.fa-3x,.fa-4x,.fa-5x,.fa-6x,.fa-7x,.fa-8x,.fa-9x,.fa-10x{line-height:1.2em!important;} 
+.fa-lg{font-size:1.33333333em!important;} .fa-1x{font-size:1.5em!important;} 
+.fa-2x{font-size:2em!important;} .fa-3x{font-size:3em!important;} .fa-4x{font-size:4em!important;} 
+.fa-5x{font-size:5em!important;} .fa-6x{font-size:6em!important;} .fa-7x{font-size:7em!important;} 
+.fa-8x{font-size:8em!important;} .fa-9x{font-size:9em!important;} .fa-x {font-size:10em!important;}
+@media(max-width:768px){.fa-lg,.fa-1x,.fa-2x,.fa-3x,.fa-4x,.fa-5x,.fa-6x,.fa-7x,.fa-8x,.fa-9x,.fa-10x{font-size:1.2em!important;}}
+@media(max-width:768px){h1{font-size:2em!important;} h2.fa-5x{font-size:1.95em!important;} h2.fa-4x{font-size:1.75em!important;} h2.fa-3x{font-size:1.55em!important;} h2.fa-2x{font-size:1.35em!important;} h2.fa-1x{font-size:1.25em!important;} h2.fa-lg{font-size:1.25em!important;} h3{font-size:1.15em!important;} p.fa-lg{font-size:.85em!important;} blockquote p{font-size:1.1em!important;} blockquote cite{font-size:.85em!important;} p, ul, ol, li, table, address, blockquote, cite{font-size:14px!important;line-height:1.5em!important;}}
+
+.text-light {font-weight:300;}
+.text-normal{font-weight:400;}
+.text-bold {font-weight:700;}
+.text-shadow {text-shadow:rgba( 0, 0, 0, .25 ) .045em .045em;}
+
+.btn,.btn:hover {transition:.3s ease-in-out;}
+.btn-xl{font-size:30px;padding:8px 10px;border-radius:6px;}
+@media(max-width:768px){.btn-xl{font-size:20px;padding:8px 13px;}}
+
+.bg-primary {background:rgba(66, 139, 202, .85)!important;}
+.bg-info {background:rgba(91, 192, 222, .85)!important;}
+.bg-success {background:rgba(92, 184, 92, .85)!important}
+.bg-warning {background:rgba(240, 173, 78, .85)!important;}
+.bg-danger {background:rgba(217, 83, 79, .85)!important;}
